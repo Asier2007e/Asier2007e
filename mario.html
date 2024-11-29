@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario</title>
+    <style>
+        body {
+            background-color: rgb(220, 220, 220);
+            color: #333;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #0072c6;
+            font-size: 4em;
+            animation: wave 1.5s infinite;
+        }
+        h2 {
+            text-align: center;
+            color: #ff4081;
+            font-size: 2.5em;
+            animation: wave 1.5s infinite;
+            animation-delay: 0.5s;
+        }
+        @keyframes wave {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .imagenes {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            margin-top: 20px;
+        }
+        .imagenes img {
+            width: 500px; 
+            height: auto;
+            border-radius: 10%;
+            margin-right: 20px; 
+        }
+        .descripcion {
+            max-width: 600px; 
+            font-size: 1.5em;
+            line-height: 1.5;
+            text-align: left;
+        }
+        .boton-retroceder {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0; 
+        }
+        .boton-retroceder img {
+            width: 50px; 
+            height: auto;
+        }
+        .boton-retroceso {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #0072c6;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Análisis de Mario</h1>
+    <div class="imagenes">
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDB4cnUxOGc2dW9yODdkdGJ0cXg3YjJlb2hha2tlZmphcGk2dHZoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1Lpr8j3loNTzi/giphy.webp" alt="Mario">
+        <div class="descripcion">
+            <h3>Super Mario</h3>
+            <p>¡Salta, corre y come champiñones! Mario, el fontanero más famoso del mundo, ha estado rescatando princesas y aplastando tortugas desde 1985. En esta serie de juegos, te embarcarás en una misión épica para salvar a la Princesa Peach del temido Bowser. Con su icónico sombrero rojo, Mario no solo es un maestro del salto, ¡sino que también es un experto en recoger monedas y superar obstáculos absurdos! Prepárate para un viaje lleno de diversión, risas y un poco de locura en cada nivel. ¡Asegúrate de no caer en la lava y de dejarte llevar por la música pegajosa!</p>
+        </div>
+    </div>
+    <div class="boton-retroceder">
+        <a href="/tarea rafa v2.html">
+            <img src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F2596%2FPNG%2F512%2Freturn_icon_154912.png&amp;sp=1732835111T76d22391c41f0dff15306990d35a92bc93c2b8ae0aeaa98d14d6f537c23e9274" alt="Retroceder">
+        </a>
+    </div>
+    <a href="/tarea rafa v2.html" class="boton-retroceso">Retroceder</a>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo</title>
+    <style>
+        body {
+            background-color: rgb(142, 216, 245);
+            color: #333;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #e76233;
+            font-size: 4em;
+            animation: wave 1.5s infinite;
+        }
+        h2 {
+            text-align: center;
+            color: #5786ec;
+            font-size: 2.5em;
+            animation: wave 1.5s infinite;
+            animation-delay: 0.5s;
+        }
+        @keyframes wave {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .imagenes {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 0px;
+        }
+        .imagenes div {
+            text-align: center;
+            max-width: 350px;
+        }
+        .imagenes img {
+            width: 350px;
+            height: auto;
+            border-radius: 10%;
+        }
+        .descripcion {
+            margin-top: 10px;
+            font-size: 1.5em;
+            line-height: 1.5;
+            text-align: left;
+        }
+        .boton-retroceder {
+            display: flex;
+            justify-content: center;
+            margin: 0; 
+        }
+        .boton-retroceder img {
+            width: 50px;
+            height: auto;
+        }
+        .boton-retroceso {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #0072c6;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nintendo</h1>
+    <h2>Análisis de Videojuegos</h2>
+    <div class="imagenes">
+        <div>
+            <a href="zelda.html">
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXh3bDAyZnl1MGk5NjltcHR3czE0bXdvY2N1MmF0NGJ3d3RsczFhMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xTiN0PNyze0nmJ1LTG/giphy.webp" alt="Zelda">
+            </a>
+            <div class="descripcion">
+                <h3>The Legend of Zelda</h3>
+                <p>Una de las franquicias más icónicas de Nintendo, Zelda combina acción, aventura y resolución de acertijos en un mundo mágico. Acompaña a Link en su misión para rescatar a la Princesa Zelda y derrotar al malvado Ganon.</p>
+            </div>
+        </div>
+        <div class="boton-retroceder">
+            <a href="/tarea rafa v2.html">
+                <img src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F2596%2FPNG%2F512%2Freturn_icon_154912.png&sp=1732835111T76d22391c41f0dff15306990d35a92bc93c2b8ae0aeaa98d14d6f537c23e9274" alt="Retroceder">
+            </a>
+        </div>
+        <div>
+            <a href="mario.html">
+                <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZtN2w4cnJkNTBzZnZ3MzB4cHdxdmNsbWJyeXo0eDJoYzV2MDluMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RLopdWediNSYE/giphy.webp" alt="Mario">
+            </a>
+            <div class="descripcion">
+                <h3>Super Mario</h3>
+                <p>Mario es el héroe más conocido de los videojuegos. En esta serie, los jugadores controlan a Mario mientras saltan, corren y luchan contra enemigos en su misión para rescatar a la Princesa Peach del malvado Bowser.</p>
+            </div>
+        </div>
+    </div>
+    <a href="/tarea rafa v2.html" class="boton-retroceso">Retroceder</a>
+
+</body>
+</html>
